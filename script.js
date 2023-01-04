@@ -36,6 +36,7 @@ fromText.addEventListener("keyup", () => {
   }
 });
 
+// it changes the color and transalates
 translateBtn.addEventListener("click", () => {
   let text = fromText.value.trim(),
     translateFrom = selectTag[0].value,
@@ -56,6 +57,7 @@ translateBtn.addEventListener("click", () => {
     });
 });
 
+//It will recieve all the file in text format
 icons.forEach((icon) => {
   icon.addEventListener("click", ({ target }) => {
     if (!fromText.value || !toText.value) return;
