@@ -7,6 +7,6 @@ It uses simple html,css and javasript for functionality.It helps you to pronounc
 https://language-trans-by-dillirajtimalsina.netlify.app/
 
 
-## API Reference:
+## API Reference :
 
 https://mymemory.translated.net/doc/spec.php
